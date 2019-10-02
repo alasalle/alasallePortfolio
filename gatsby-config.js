@@ -9,8 +9,8 @@ let siteMetadata = {
     author: `@_akzhy`,
     blogItemsPerPage: 10,
     portfolioItemsPerPage: 10,
-    darkmode: true,
-    switchTheme: true,
+    darkmode: false,
+    switchTheme: false,
     navLinks: [
         {
             name: "HOME",
@@ -20,10 +20,10 @@ let siteMetadata = {
             name: "ABOUT",
             url: "/about"
         },
-        {
-            name: "BLOG",
-            url: "/blog"
-        },
+        // {
+        //     name: "BLOG",
+        //     url: "/blog"
+        // },
         {
             name: "PORTFOLIO",
             url: "/portfolio"
