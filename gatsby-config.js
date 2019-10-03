@@ -1,12 +1,12 @@
 let siteMetadata = {
-    title: `Elemental`,
+    title: `Angelina La Salle`,
     capitalizeTitleOnHome: true,
     logo: `/images/logo.png`,
     icon: `/images/icon.png`,
     titleImage: `/images/wall.jpg`,
-    introTag: `PHOTOGRAPHER | VIDEOGRAPHER`,
-    description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
-    author: `@_akzhy`,
+    introTag: `Full Stack Software Developer`,
+    description: `Dedicated to adding value through innovation.`,
+    author: `@alasalle`,
     blogItemsPerPage: 10,
     portfolioItemsPerPage: 10,
     darkmode: false,
@@ -45,33 +45,23 @@ let siteMetadata = {
     ],
     social: [
         {
-            name: "Facebook",
-            icon: "/images/Facebook.svg",
-            url: "#"
+            name: "LinkedIn",
+            icon: "/images/linkedin.svg",
+            url: "https://www.linkedin.com/in/angelina-la-salle-a42605179/"
         },
         {
-            name: "Twitter",
-            icon: "/images/Twitter.svg",
-            url: "#"
-        },
-        {
-            name: "Instagram",
-            icon: "/images/Instagram.svg",
-            url: "#"
-        },
-        {
-            name: "Youtube",
-            icon: "/images/Youtube.svg",
-            url: "#"
+            name: "Github",
+            icon: "/images/github.svg",
+            url: "https://github.com/alasalle"
         }
     ],
     contact: {
         /* Leave the below value completely empty (no space either) if you don't want a contact form. */
         api_url: "./test.json",
-        description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet accumsan arcu. Proin ac consequat arcu.`,
-        mail: "hi@akzhy.com",
-        phone: "000-000-0000",
-        address: "1234 \nLocation \nLocation"
+        description: `I'd love to hear any questions you might have.`,
+        mail: "angela.lasalle91@gmail.com",
+        phone: "863-521-3189",
+        address: "Lake Wales, FL"
     }
 };
 
