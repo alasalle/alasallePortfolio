@@ -73,7 +73,7 @@ class IndexPage extends React.Component {
             <div className="main-title text-primary">
               <svg
                 width="90%"
-                height="320px"
+                height="220px"
                 margin-top="20px"
                 viewBox="0 0 100 100"
                 preserveAspectRatio="xMidYMid slice"
