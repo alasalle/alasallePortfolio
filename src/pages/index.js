@@ -74,6 +74,7 @@ class IndexPage extends React.Component {
               <svg
                 width="90%"
                 height="220px"
+                margin-top="20px"
                 viewBox="0 0 100 100"
                 preserveAspectRatio="xMidYMid slice"
                 ref={c => (this.svg = c)}
