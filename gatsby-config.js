@@ -2,7 +2,7 @@ let siteMetadata = {
     title: `Angelina LaSalle`,
     capitalizeTitleOnHome: true,
     logo: `/images/logo.png`,
-    icon: `/images/icon.png`,
+    icon: `/images/ico.png`,
     titleImage: `/images/wall.jpg`,
     introTag: `Full Stack Software Developer`,
     description: `Dedicated to adding value through innovation.`,
