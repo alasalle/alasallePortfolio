@@ -27,9 +27,9 @@ export default function() {
         <div className="navlinks text-secondary">
           <Navlinks />
         </div>
-        <div className="navlinks text-secondary" style={{ marginTop: "20px" }}>
+        {/* <div className="navlinks text-secondary" style={{ marginTop: "20px" }}>
           <FooterLinks />
-        </div>
+        </div> */}
         <p className="text-primary f-d">
           Copyright &copy; {query.site.siteMetadata.title}{" "}
           {new Date().getFullYear()}
