@@ -71,9 +71,7 @@ function SEO({ description, lang, meta, title, image }) {
           content: ogImage
         }
       ].concat(meta)}
-    >
-      <script async src="https://sdk.canva.com/v1/embed.js"></script>
-    </Helmet>
+    />
   );
 }
 
