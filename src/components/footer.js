@@ -2,7 +2,7 @@ import React from "react";
 import { useStaticQuery, graphql, Link } from "gatsby";
 import Logo from "./logo";
 import Navlinks from "./navlinks";
-import FooterLinks from "./footer-links";
+// import FooterLinks from "./footer-links";
 import "../style/footer.less";
 
 export default function() {
