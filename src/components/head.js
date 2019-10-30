@@ -15,7 +15,6 @@ function Header() {
   `);
   return (
     <Helmet>
-      <script async src="https://sdk.canva.com/v1/embed.js" />
       <link rel="icon" href={query.site.siteMetadata.icon} type="image/png" />
       <link
         rel="stylesheet"
