@@ -20,6 +20,7 @@ export default function({ data }) {
         title={data.markdownRemark.frontmatter.title}
         description={data.markdownRemark.frontmatter.description}
         image={data.markdownRemark.frontmatter.image.publicURL}
+        link={data.markdownRemark.frontmatter.image.publicURL}
       />
       <div className="container">
         <article className="portfolio-post">
@@ -53,6 +54,7 @@ export const query = graphql`
         title
         date
         description
+        link
         image {
           publicURL
           childImageSharp {

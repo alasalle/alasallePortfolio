@@ -16,6 +16,7 @@ export default function() {
             frontmatter {
               title
               description
+              link
               image {
                 publicURL
                 childImageSharp {

@@ -9,20 +9,13 @@ class PortfolioItem extends React.Component {
       <div className="item col s12">
         <div className="row flex">
           <div className="col m6 image">
-            <Img
-              fluid={
-                this.props.data.node.frontmatter.image.childImageSharp.fluid
-              }
-            />
-            <Link
-              to={this.props.data.node.fields.slug}
-              title={this.props.data.node.frontmatter.title}
-              aria-label={this.props.data.node.frontmatter.title}
-              className="overlay-link"
-              style={{ opacity: 0 }}
-            >
-              {this.props.data.node.frontmatter.title}
-            </Link>
+            <a href={this.props.data.node.frontmatter.link} target="_blank">
+              <Img
+                fluid={
+                  this.props.data.node.frontmatter.image.childImageSharp.fluid
+                }
+              />
+            </a>
           </div>
           <div className="col m6 content">
             <h2 className="text-primary pseudo-divider">
