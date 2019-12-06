@@ -9,7 +9,11 @@ class PortfolioItem extends React.Component {
       <div className="item col s12">
         <div className="row flex">
           <div className="col m6 image">
-            <a href={this.props.data.node.frontmatter.link} target="_blank">
+            <a
+              href={this.props.data.node.frontmatter.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Img
                 fluid={
                   this.props.data.node.frontmatter.image.childImageSharp.fluid
