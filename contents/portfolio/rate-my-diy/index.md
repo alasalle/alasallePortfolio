@@ -4,7 +4,7 @@ description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei
 date: 2019-12-05
 template: portfolio
 image: ./RMDIYhome.png
-link: https://ratemydiy.alasalle.com/
+link: https://rmdiy.alasalle.com/
 ---
 
 `youtube: Boq4KYMVrJs`
