@@ -13,7 +13,7 @@ const Resume = () => {
       </Helmet>
       <section id="404" className="container" style={{ minHeight: "600px" }}>
         <div className="section-title">
-          <SectionTitle title="Resume" />
+          <SectionTitle title="RESUME" />
           <div
             class="canva-embed"
             data-design-id="DADpobeTBV0"

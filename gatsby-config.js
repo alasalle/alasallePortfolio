@@ -3,6 +3,7 @@ let siteMetadata = {
   capitalizeTitleOnHome: true,
   logo: `/images/logo.png`,
   icon: `/images/ico.png`,
+  pic: `/images/image.png`,
   titleImage: `/images/wall.jpg`,
   introTag: `Full Stack Software Developer`,
   description: `Dedicated to adding value through innovation.`,

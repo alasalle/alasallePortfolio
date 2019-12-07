@@ -30,58 +30,16 @@ class Contact extends React.Component {
 
   handleSubmit(event) {
     event.preventDefault();
-    // if (!this.state.submitDisabled) {
-    //   this.setState({
-    //     submitDisabled: true
-    //   });
-
-    //   let name = encodeURI(this.dataName.value),
-    //     email = encodeURI(this.dataEmail.value),
-    //     message = encodeURI(this.dataMessage.value),
-    //     body = `name=${name}&email=${email}&message=${message}`;
-
-    //   fetch("http://localhost/local/test.json", {
-    //     method: "post",
-    //     body: body
-    //   })
-    //     .then(function(res) {
-    //       return res.json();
-    //     })
-    //     .then(
-    //       result => {
-    //         this.setState({
-    //           submitDisabled: false
-    //         });
-            // this.resMessage.style.opacity = 1;
-            // if (result.response === "error") {
-            //   this.resMessage.innerHTML =
-            //     "There was an error in sending the message";
-            //   this.resMessage.classList.add("color-error");
-            // } else {
-              this.resMessage.innerHTML = "Message sent succesfully";
-              this.resMessage.classList.remove("color-error");
-            // }
-            this.dataName.value = "";
-            this.dataEmail.value = "";
-            this.dataMessage.value = "";
-            let _this = this;
-            setTimeout(function() {
-              _this.resMessage.style.opacity = 0;
-            }, 5000);
-          // },
-          // error => {
-          //   this.resMessage.innerHTML = "Message sent succesfully";
-          //   this.resMessage.classList.remove("color-error");
-          //   this.setState({
-          //     submitDisabled: false
-          //   });
-          //   let _this = this;
-          //   setTimeout(function() {
-          //     _this.resMessage.style.opacity = 0;
-          //   }, 5000);
-          // }
-        // );
+    this.resMessage.innerHTML = "Message sent succesfully";
+    this.resMessage.classList.remove("color-error");
     // }
+    this.dataName.value = "";
+    this.dataEmail.value = "";
+    this.dataMessage.value = "";
+    let _this = this;
+    setTimeout(function() {
+      _this.resMessage.style.opacity = 0;
+    }, 5000);
   }
 
   componentDidMount() {
@@ -116,9 +74,15 @@ class Contact extends React.Component {
         >
           {this.showContactForm && (
             <div className="col s12 m6">
-              <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" action="/message-received">
-              <input type="hidden" name="bot-field" />
-              <input type="hidden" name="form-name" value="contact" />
+              <form
+                name="contact"
+                method="post"
+                data-netlify="true"
+                data-netlify-honeypot="bot-field"
+                action="/message-received"
+              >
+                <input type="hidden" name="bot-field" />
+                <input type="hidden" name="form-name" value="contact" />
                 <div className="field">
                   <label>
                     <span className="label text-tertiary">Name</span>
