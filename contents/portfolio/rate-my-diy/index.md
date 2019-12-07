@@ -1,6 +1,6 @@
 ---
 title: Rate My DIY
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+description: A React application served by a GraphQL server, built with Apollo and Prisma, enabling users to create, share, rate and review DIY projects.
 date: 2019-12-05
 template: portfolio
 image: ./RMDIYhome.png
@@ -9,52 +9,52 @@ link: https://rmdiy.alasalle.com/
 
 `youtube: Boq4KYMVrJs`
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Rate My DIY was a 12 week long capstone project for my part-time cohort in Lambda School. This project was created by a 3 person team looking to solidify our understanding of concepts covered in Lambda's Full Stack Web Development program and branch out to explore new technologies. On the front end, we created a React application that employed react-apollo to connect to our server, Redux for state management, and Firebase for authentication. On the backend, we created a GraphQL server with graphql-yoga, accessed and managed through nexus-prisma. The scope of our project was fairly ambitious; along with learning many new technologies (GraphQL, Prisma, Nexus, Apollo, etc.), our app includes extensive functionality and many pages, which will be covered below:
 
 [row][col]
 ![image](./HomeAndNav.gif)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit
+Home page which aggregates featured projects (highest rated projects in the last month), popular makers (those who have been active on the site in the last month), and popular reviewers (reviewers whose reviews have amassed the most likes in the past month). This gif also highlights the nav sidebar functionality.
 
 [/col][/row]
 
 [row][col]
 ![image](./Profile.gif)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit
+Profile page where a users activity is displayed. This includes their projects and reviews, along with the projects that the user has rated and reviews that the user has liked.
 
 [/col][/row]
 
 [row][col]
 ![image](./CreateAProject.gif)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit
+Create Project page where users can create a project, including a title, main images, steps and related images.
 
 [/col][/row]
 
 [row][col]
 ![image](./Review.gif)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit
+Create Review drop down functionality to review and rate projects.
 
 [/col][/row]
 
 [row][col]
 ![image](./RateReview.gif)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit
+Review modal with like and dislike functionality. Users may only like or dislike once and may only do one of the two.
 
 [/col][/row]
 
 [row][col]
 ![image](./Search.gif)
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit
+Search functionality allowing users to search across the whole site for users, projects, and/or reviews. Further filtering of projects by rating and category. Sorting functionality for any/all selections.
 
 [/col][/row]
 
 [row][col]
 <a href="https://alasallelabs.netlify.com/" target="_blank" rel="noopener noreferrer">Development Blog</a>
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit
+A blog that details my contributions to and general experience during the development of Rate My DIY.
 [/col][/row]
