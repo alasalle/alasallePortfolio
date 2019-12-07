@@ -1,5 +1,5 @@
 ---
-title: Sauti Africa Market Prices API
+title: Sauti Africa Market Price API
 description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 date: 2019-12-05
 template: portfolio
