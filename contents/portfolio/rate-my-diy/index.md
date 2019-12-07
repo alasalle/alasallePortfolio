@@ -21,14 +21,14 @@ Home page which aggregates featured projects (highest rated projects in the last
 [row][col]
 ![image](./Profile.gif)
 
-Profile page where a users activity is displayed. This includes their projects and reviews, along with the projects that the user has rated and reviews that the user has liked.
+Profile page where a users' activity is displayed. This includes their projects and reviews, along with the projects that the user has rated and reviews that the user has liked.
 
 [/col][/row]
 
 [row][col]
 ![image](./CreateAProject.gif)
 
-Create Project page where users can create a project, including a title, main images, steps and related images.
+Create Project page where users can create a project, including a title, a main image, steps and related images.
 
 [/col][/row]
 
