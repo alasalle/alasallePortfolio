@@ -32,7 +32,7 @@ const About = () => {
           others as it has been for them.
         </p>
         <br />
-        <p>
+        <p class="text-primary">
           Angela has been an ambitious and engaged student of web development
           for the past year. They consistently performed above expectations in
           coursework and in their capstone project that simulated a professional
