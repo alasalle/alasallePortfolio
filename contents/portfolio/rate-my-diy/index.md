@@ -1,7 +1,7 @@
 ---
 title: Rate My DIY
 description: A React application served by a GraphQL server, built with Apollo and Prisma, enabling users to create, share, rate and review DIY projects.
-date: 2019-12-05
+date: 2019-05-20
 template: portfolio
 image: ./RMDIYhome.png
 link: https://rmdiy.alasalle.com/
