@@ -35,7 +35,7 @@ On the table page, users can filter by multiple sections and sections can have m
 [row][col]
 ![image](./pagination&caching.gif)
 
-Cursor pagination is a key feature in our API. It eliminates repeated results when data is added or removed from the database and it is much quicker than offset pagination for large datasets. Our table page also employs Least Recently Used caching of results, which also improves the speed of using our table.
+Cursor pagination is a key feature in our API. It eliminates repeated results when data is added or removed from the database and it is much quicker than offset pagination for large datasets. Our table page also employs Least Recently Used caching of results, which improves the speed of using our table.
 
 [/col][/row]
 
