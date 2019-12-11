@@ -7,6 +7,11 @@
 	height: 100vh;
 
 	.intro {
+		.main-title{
+			svg{
+				height: 220px;
+			}
+		}
 
 		.tag-line {
 			font-size: 20px;
@@ -54,7 +59,7 @@
   	.wall{
 		.main-title{
 			svg{
-				height: 220px;
+				height: auto;
 			}
 		}
 
@@ -66,5 +71,20 @@
 		    font: bold 14px sans-serif;
 		    font-family: 'Work Sans', sans-serif;
 		}
+	}
+}
+
+@media only screen and (max-width: 800px) and (max-height: 450px) {
+	.wall {
+		.intro {
+			margin-top: 85px;
+		}
+		.main-title{
+			margin-top: 85px;
+		}
+	}
+
+	#portfolio {
+		margin-top: 250px;
 	}
 }
