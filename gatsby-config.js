@@ -1,5 +1,5 @@
 let siteMetadata = {
-  title: `Angelina LaSalle`,
+  title: `Angela LaSalle`,
   capitalizeTitleOnHome: true,
   logo: `/images/logo.png`,
   icon: `/images/ico.png`,
