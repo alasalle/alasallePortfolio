@@ -72,6 +72,7 @@ class IndexPage extends React.Component {
           <div className="intro container">
             <div className="main-title text-primary">
               <svg
+                className="titleSVG"
                 width="90%"
                 // height="220px"
                 margin-top="20px"

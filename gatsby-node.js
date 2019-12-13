@@ -18,20 +18,6 @@ exports.createPages = ({ graphql, actions }) => {
 
     return graphql(`
         {
-            blog: allMarkdownRemark(
-                filter: { fileAbsolutePath: { regex: "/blog/" } }
-            ) {
-                edges {
-                    node {
-                        frontmatter {
-                            template
-                        }
-                        fields {
-                            slug
-                        }
-                    }
-                }
-            }
             portfolio: allMarkdownRemark(
                 filter: { fileAbsolutePath: { regex: "/portfolio/" } }
             ) {
@@ -68,24 +54,24 @@ exports.createPages = ({ graphql, actions }) => {
             }
         }
     `).then(result => {
-        const blogPosts = result.data.blog.edges;
+        // const blogPosts = result.data.blog.edges;
 
-        const blogPostsPerPage =
-            result.data.limitPost.siteMetadata.blogItemsPerPage;
-        const numBlogPages = Math.ceil(blogPosts.length / blogPostsPerPage);
+        // const blogPostsPerPage =
+        //     result.data.limitPost.siteMetadata.blogItemsPerPage;
+        // const numBlogPages = Math.ceil(blogPosts.length / blogPostsPerPage);
 
-        Array.from({ length: numBlogPages }).forEach((_, i) => {
-            createPage({
-                path: i === 0 ? `/blog` : `/blog/${i + 1}`,
-                component: path.resolve("./src/templates/blog-list.js"),
-                context: {
-                    limit: blogPostsPerPage,
-                    skip: i * blogPostsPerPage,
-                    numPages: numBlogPages,
-                    currentPage: i + 1
-                }
-            });
-        });
+        // Array.from({ length: numBlogPages }).forEach((_, i) => {
+        //     createPage({
+        //         path: i === 0 ? `/blog` : `/blog/${i + 1}`,
+        //         component: path.resolve("./src/templates/blog-list.js"),
+        //         context: {
+        //             limit: blogPostsPerPage,
+        //             skip: i * blogPostsPerPage,
+        //             numPages: numBlogPages,
+        //             currentPage: i + 1
+        //         }
+        //     });
+        // });
 
         const PortfolioItems = result.data.portfolio.edges;
         const PortfolioItemsPerPage =
@@ -99,24 +85,10 @@ exports.createPages = ({ graphql, actions }) => {
                 path: i === 0 ? `/portfolio` : `/portfolio/${i + 1}`,
                 component: path.resolve("./src/templates/portfolio-list.js"),
                 context: {
-                    limit: blogPostsPerPage,
-                    skip: i * blogPostsPerPage,
+                    limit: PortfolioItemsPerPage,
+                    skip: i * PortfolioItemsPerPage,
                     numPages: numPortfolioItems,
                     currentPage: i + 1
-                }
-            });
-        });
-
-        result.data.blog.edges.forEach(({ node }) => {
-            let template =
-                node.frontmatter.template === undefined
-                    ? "blog"
-                    : node.frontmatter.template;
-            createPage({
-                path: node.fields.slug,
-                component: path.resolve("./src/templates/" + template + ".js"),
-                context: {
-                    slug: node.fields.slug
                 }
             });
         });

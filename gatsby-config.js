@@ -8,7 +8,7 @@ let siteMetadata = {
   introTag: `Full Stack Software Developer`,
   description: `Dedicated to adding value through innovation.`,
   author: `@alasalle`,
-  blogItemsPerPage: 10,
+  blogItemsPerPage: 1,
   portfolioItemsPerPage: 10,
   darkmode: false,
   switchTheme: false,
@@ -35,10 +35,6 @@ let siteMetadata = {
     }
   ],
   footerLinks: [
-    {
-      name: "PRIVACY POLICY",
-      url: "/privacy-policy"
-    },
     {
       name: "GitHub",
       url: "https://github.com/akzhy/gatsby-starter-elemental"
