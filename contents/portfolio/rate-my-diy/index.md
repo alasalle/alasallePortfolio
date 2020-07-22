@@ -9,7 +9,13 @@ link: https://rmdiy.alasalle.com/
 
 `youtube: Boq4KYMVrJs`
 
-Rate My DIY was a 12 week long capstone project for my part-time cohort in Lambda School. This project was created by a 3 person team looking to solidify our understanding of concepts covered in Lambda's Full Stack Web Development program and branch out to explore new technologies. On the front end, we created a React application that employed react-apollo to connect to our server, Redux for state management, and Firebase for authentication. On the backend, we created a GraphQL server with graphql-yoga, accessed and managed through nexus-prisma. The scope of our project was fairly ambitious; along with learning many new technologies (GraphQL, Prisma, Nexus, Apollo, etc.), our app includes extensive functionality and many pages, which will be covered below:
+Rate My DIY was a 12 week long part-time project that enables users to post DIY projects, rate and comment on other projects and reviews. On the front end, we created a React application that employed react-apollo to connect to our server, Redux for state management, and Firebase for authentication. On the backend, we created a GraphQL server with graphql-yoga, accessed and managed through nexus-prisma. The scope of our project was fairly ambitious; along with learning many new technologies (GraphQL, Prisma, Nexus, Apollo, etc.). I primarily served as a backend developer for this project and my core contributions include assembling the GraphQL server with Prisma and guiding the frontend team in making use of the server to build out project creation functionality, and review functionality.
+
+Tech Stack: React | SCSS | GraphQL | Prisma | PostgreSQL
+
+<a href="https://github.com/alasalle/rmdiy" target="_blank" rel="noopener noreferrer">Link to codebase</a>
+
+Core functionality is covered below:
 
 [row][col]
 ![image](./HomeAndNav.gif)

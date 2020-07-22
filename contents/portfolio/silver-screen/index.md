@@ -9,7 +9,13 @@ link: https://silver-screen.alasalle.com/
 
 <!-- `youtube: -R4Y-uWfu2A` -->
 
-Silver Screen is a fully responsive social media movie database web app allowing users to browse the latest popular films, save favorite films, comment on films, and reply to and like comments. The frontend is written in React using Hooks, Ant Design, some custom CSS, and is secured using Auth0. The backend is written with Node and Express and utilizes a MongoDB Atlas cloud database. The main features and functionality are demonstrated below:
+Silver Screen is a fully responsive social media movie database web app allowing users to browse the latest popular films, save favorite films, comment on films, and reply to and like comments. It was coded over a span of 3 weeks as a solo project. The frontend is written in React using Hooks, Ant Design, some custom CSS, and is secured using Auth0. The backend is written with Node and Express and utilizes a MongoDB Atlas cloud database.
+
+Tech Stack: MongoDB Atlas | Express | React | Node.js | Auth0 | Ant Design | CSS
+
+<a href="https://github.com/alasalle/silver-screen" target="_blank" rel="noopener noreferrer">Link to codebase</a>
+
+The main features and functionality are demonstrated below:
 
 [row][col]
 ![image](./login.gif)

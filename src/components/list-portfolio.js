@@ -6,7 +6,7 @@ export default function() {
   const query = useStaticQuery(graphql`
     query portfolioList {
       allMarkdownRemark(
-        filter: { fileAbsolutePath: { regex: "/portfolio/" } }
+        filter: { fileAbsolutePath: { regex: "/projects/" } }
         limit: 6
         sort: { fields: [frontmatter___date], order: DESC }
       ) {

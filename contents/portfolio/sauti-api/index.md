@@ -9,7 +9,14 @@ link: https://price-api.sautiafrica.org/
 
 `youtube: -R4Y-uWfu2A`
 
-Sauti Africa Market Price API was an 8 week long capstone project for a full-time cohort in Lambda School that I served as a Team Lead for. This project was created by an 8 person team for Sauti Africa, a company that provides a mobile-based trade information and social accountability platform for East Africa’s cross-border traders and entrepreneurs. Our goal was two-fold: the first goal was to provide Sauti Africa with an API serving serving their market price MySQL database, and the second was to provide a public-facing platform for the API so researchers can query the database and developers can have access to API documentation and manage their accounts. On the front end, we created a React application that employed ag-Grid for the filterable table and Auth0 for authentication. On the backend, we created a Node and Express server that allows for dynamic filters and cursor pagination. The main features and functionality of our public-facing platform are covered below:
+Sauti Africa Market Price API was an 8 week long full-time project for a group that I served as a Team Lead for. This project was created by an 8 person team for Sauti Africa, a company that provides a mobile-based trade information and social accountability platform for East Africa’s cross-border traders and entrepreneurs. Our goal was two-fold: the first goal was to provide Sauti Africa with an API serving their market price MySQL database, and the second was to provide a public-facing platform for the API so researchers can query the database and developers can have access to API documentation and manage their accounts. On the front end, we created a React application that employed ag-Grid for the filterable table and Auth0 for authentication. On the backend, we created a Node and Express server that allows for dynamic filters and cursor pagination. Beyond my role as Team Lead, I personally implemented key hashing, rebuilt user authentication, and equipped the server with cursor pagination.
+
+Teck Stack: React | Bootstrap | Redux | Node.js | Express
+
+<a href="https://github.com/alasalle/sauti-fe" target="_blank" rel="noopener noreferrer">Link to frontend codebase</a>
+<a href="https://github.com/alasalle/sauti-be" target="_blank" rel="noopener noreferrer">Link to backend codebase</a>
+
+The main features and functionality of our public-facing platform are covered below:
 
 [row][col]
 ![image](./docsgifexamples.gif)

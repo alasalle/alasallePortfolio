@@ -13,7 +13,7 @@ class PortfolioList extends React.Component {
       return (
         <section id="portfolio" className="container">
           <div className="section-title">
-            <SectionTitle title="PORTFOLIO" />
+            <SectionTitle title="PROJECTS" />
           </div>
           <PortfolioItems data={query} />
           <Pagination pathContext={this.props.pathContext} type="portfolio" />
@@ -28,7 +28,7 @@ class PortfolioList extends React.Component {
 export default function({ data, pathContext }) {
   return (
     <Layout>
-      <SEO lang="en" title="Portfolio" />
+      <SEO lang="en" title="Projects" />
       <PortfolioList datas={data} pathContext={pathContext} />
     </Layout>
   );
@@ -37,7 +37,7 @@ export default function({ data, pathContext }) {
 export const query = graphql`
   query portfolioListPage($skip: Int!, $limit: Int!) {
     allMarkdownRemark(
-      filter: { fileAbsolutePath: { regex: "/portfolio/" } }
+      filter: { fileAbsolutePath: { regex: "/projects/" } }
       sort: { fields: [frontmatter___date], order: DESC }
       limit: $limit
       skip: $skip
