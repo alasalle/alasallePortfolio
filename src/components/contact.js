@@ -1,5 +1,4 @@
 import React from "react";
-import ReCAPTCHA from "react-google-recaptcha";
 import SectionTitle from "./sectiontitle";
 import { StaticQuery, graphql } from "gatsby";
 import { PaperPlane, Mapmarker, Mobile, Envelope, Loading } from "./icons";
@@ -133,7 +132,6 @@ class Contact extends React.Component {
                 </div>
                 <div className="field">
                   <label className="ib">
-                    <ReCAPTCHA sitekey={GATSBY_RECAPTCHA_KEY} />
                     <button
                       className={
                         "btn" + (this.state.submitDisabled ? " disabled" : "")
