@@ -22,9 +22,14 @@ function Header() {
         href="https://cdn.jsdelivr.net/gh/akzhy/trunk/dist/trunk.min.css"
       />
       <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css"
+      ></link>
+      <link
         href="https://fonts.googleapis.com/css?family=Work+Sans:800|Poppins&display=swap"
         rel="stylesheet"
       />
+      <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     </Helmet>
   );
 }

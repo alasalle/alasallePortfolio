@@ -22,6 +22,10 @@ let siteMetadata = {
       url: "/about"
     },
     {
+      name: "SKILLS",
+      url: "/skills"
+    },
+    {
       name: "RESUME",
       url: "/resume"
     },
@@ -72,8 +76,8 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: process.env.GATRACKING || "none",
-        head: true,
-      },
+        head: true
+      }
     },
     {
       resolve: `gatsby-transformer-remark`,
