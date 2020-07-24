@@ -79,6 +79,7 @@ class Contact extends React.Component {
                 method="post"
                 data-netlify="true"
                 data-netlify-honeypot="bot-field"
+                data-netlify-recaptcha="true"
                 action="/message-received"
               >
                 <input type="hidden" name="bot-field" />
