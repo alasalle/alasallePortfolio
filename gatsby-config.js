@@ -30,7 +30,7 @@ let siteMetadata = {
       url: "/resume"
     },
     {
-      name: "PORTFOLIO",
+      name: "PROJECTS",
       url: "/portfolio"
     },
     {
