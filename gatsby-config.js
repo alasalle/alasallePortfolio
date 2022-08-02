@@ -62,7 +62,7 @@ let siteMetadata = {
     description: `I'd love to hear any questions you might have.`,
     mail: "angela.lasalle91@gmail.com",
     phone: "863-521-3189",
-    address: "Lake Wales, FL"
+    address: "Fort Wayne, IN"
   }
 };
 
