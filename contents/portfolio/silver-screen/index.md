@@ -4,7 +4,7 @@ description: A social media movie database web app built with MERN stack, Auth0,
 date: 2020-07-22
 template: portfolio
 image: ./homepage.png
-link: https://silver-screen.alasalle.com/
+link: https://silver-screen.alasalle.net/
 ---
 
 <!-- `youtube: -R4Y-uWfu2A` -->
