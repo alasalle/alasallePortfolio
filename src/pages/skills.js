@@ -70,6 +70,14 @@ const Skills = () => {
             className="logo-box"
             style={{ margin: "10px", textAlign: "center" }}
           >
+            <img src="https://img.icons8.com/color/48/000000/amazon-web-services.png"/>
+            <div style={{ fontSize: "16px", color: "black" }}>AWS</div>
+          </div>
+
+          <div
+            className="logo-box"
+            style={{ margin: "10px", textAlign: "center" }}
+          >
             <i
               class="devicon-nodejs-plain colored"
               style={{ fontSize: "60px" }}
