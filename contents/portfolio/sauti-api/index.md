@@ -4,7 +4,6 @@ description: An API built with a Node + Express server and a public-facing site 
 date: 2019-12-05
 template: portfolio
 image: ./SautiAPIHOME.jpg
-link: https://price-api.sautiafrica.org/
 ---
 
 `youtube: -R4Y-uWfu2A`
