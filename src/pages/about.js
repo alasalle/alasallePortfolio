@@ -21,26 +21,34 @@ const About = () => {
           />
         </div>
         <p class="text-primary">
-          Angela La Salle is a Full Stack Software Developer, a recent graduate
-          of Lambda School's Full Stack Web Development track, and served
-          multiple times as a Team Lead for Labs students at Lambda School. In
-          their off hours, Angela can usually be found reading or playing video
-          games. Their background in education and passion for learning the
-          latest and best in the web development field informed their approach
-          to guiding students on their teams. Angela believes that teaching and
-          mentorship is a field that can be transformative and exciting, and
-          learning web development can be as much of a gift for others as it has
-          been for them.
-        </p>
-        <br />
-        <p class="text-primary">
-          Angela has been an ambitious and engaged student of web development
-          for the past 2 years. They consistently performed above expectations
-          in coursework and in their capstone project that simulated a
-          professional development team. Angela hopes to bring these experiences
-          and their desire to always learn more with them everywhere they go,
-          now and in the future.
-        </p>
+          Hi there! My name is Angela. I'm a full stack software engineer
+          with 2 years of professional experience in the field and was a
+          student leader at Bloom Institute of Technology (Lambda School) for 
+          2 years before that. I'm based out of Fort Wayne, Indiana, but was 
+          born and raised in Florida. I've developed a real appreciation for 
+          the seasons since moving up here. In my off hours, I can usually be found
+          reading, playing video games, cooking, or spending time with my family.
+          Funnily enough, my wife is also a software developer.
+         </p>
+         <br />
+         <p class="text-primary">
+          Before persuing my lifelong interest in software and all things internet,
+          my background was in education. My experience in education and my passion 
+          for learning has informed my approach to my career. I believe that teaching
+          and mentorship can be exciting and transformative. Learning and sharing
+          what I've learned has helped me more times than I can count since I've
+          become a software engineer.
+         </p>
+         <br />
+         <p class="text-primary">
+          I've had the privilege to work as a student team leader, a freelance 
+          developer, at a company specializing in RV-C hardware and software, 
+          and now at a company that specializes in travel industry automation 
+          and data. My core strengths lie in Javascript, React, Node, SQL, HTML, and
+          CSS, but I've been branching out with AWS and have been having a blast.
+          I've been getting a lot of use out of DynamoDB, Lambdas, Cognito, 
+          and API Gateway. Cloud development is definitely my new love!
+         </p>
       </section>
     </Layout>
   );
